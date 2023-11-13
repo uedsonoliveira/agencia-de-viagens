@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(230, 234, 236);
+}
+
+.cabecalho{
+    background-color: rgb(41, 31, 151);
+    width: 100%;
+}
+
+.limita-secao{
+    max-width: 100%;
+    margin: 0 20%;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/*----------cabecalho----------*/
+.limita-secao-topo{
+    max-width: 100%;
+    height: 70px;
+    margin: 0 20%;
+}
+
+.container-cabecalho{
+    max-width: 100%;
+    height: 70px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-cabecalho img{
+    width: 40px;
+}
+
+.logo-cabecalho h1{
+    color: #fff;
+    font-size: 20px;
+}
+
+.navegacao{
+    max-width: 100%;
+}
+
+.navegacao ul{
+    max-width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.navegacao a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navegacao a:hover{
+    color: rgb(8, 190, 241);
+}
+
+/*----------banner-topo-principal----------*/
+.container-formulario{
+    max-width: 100%;  
+}
+
+.img-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/bahia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------formulario----------*/
+.formulario{
+    background-color: rgba(17, 53, 199, 0.465);
+    max-width: 100%;
+}
+
+.formulario label{
+    color: #fff;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.formulario input, select{
+    padding: 3px;
+}
+
+.cabecalho-formulario img{
+    width: 20px;
+}
+
+.cabecalho-formulario{
+    background-color: rgb(41, 31, 151);
+    max-width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cabecalho-formulario p{
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.formulario h2{
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.dados-form{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form{
+    width: 100%;
+    padding: 5px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data-form{
+    width: 49%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.radio{
+    max-width: 100%;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.radio label{
+    padding-right: 70px;
+}
+
+.container-checkbox{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.checkbox-itens{
+    max-width: 100%;
+    padding: 5px 0;
+
+    display: flex;
+}
+
+.checkbox-itens label{
+    padding-right: 50px;
+}
+
+.container-button{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.button{
+    max-width: 100%;
+    padding: 5px 10px;
+    background-color: rgb(41, 31, 151);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+/*----------secao-ofertas----------*/
+.container-ofertas{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.limita-secao-ofertas{
+    max-width: 100%;
+    margin: 0 20%;   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.limita-secao-ofertas p{
+    background-color: rgba(10, 10, 10, 0.487);
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.container-img-ofertas-1{
+    max-width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.container-img-ofertas-1 img{
+    width: 400px;
+    height: 300px;
+}
+
+.container-img-ofertas-1 p{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.container-img-ofertas-2{
+    max-width: 100%;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.img-ofertas{
+    max-width: 100%;
+    position: relative;
+}
+
+.img-ofertas img{
+    width: 190px;
+    height: 145px;
+}
+
+.img-ofertas p{
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+}
+
+/*----------secao-img-anuncios----------*/
+.container-img-anuncios{
+    width: 100%;
+}
+
+.limita-secao-anuncios{
+    max-width: 100%;
+    margin: 0 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.img-anuncios{
+    background-color: rgb(255, 255, 255);
+}
+
+.img-anuncios img{
+    width: 400px;
+    height: 300px;
+}
+
+.texto-anuncios{
+    padding: 10px;
+    line-height: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/*----------secao-footer----------*/
+.secao-footer{
+    width: 100%;
+    background-color: rgb(41, 31, 151);
+    margin-top: 30px;
+}
+
+.limita-secao-footer{
+    max-width: 100%;
+    margin: 0 20%;
+    padding: 20px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-footer h4{
+    color: #fff;
+}
+
+.img-footer span{
+    color: #fff;
+    font-size: 12px;
+}
+
+.img-footer{
+    padding: 10px 0;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-footer img{
+    width: 20px;
+}
+
+
