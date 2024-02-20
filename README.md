@@ -48,9 +48,9 @@
 ### 📂 Contribuição:
   - Contribuições são sempre bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
     - Faça um fork do projeto.
-    - Crie uma branch para a sua funcionalidade: git checkout -b minha-funcionalidade
-    - Faça commit das suas alterações: git commit -m 'Adicionando nova funcionalidade'
-    - Faça push para a branch: git push origin minha-funcionalidade
+    - Crie uma branch para a sua funcionalidade.
+    - Faça commit das suas alterações.
+    - Faça push para a branch.
     - Abra um pull request.
       
 ### ✍🏼 Licença:
