@@ -355,6 +355,18 @@ body{
     width: 20px;
 }
 
+.link-footer{
+    background-color: rgba(17, 53, 199, 0.267);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.link-footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
 /*----------Media Querie----------*/
 @media screen and (max-width: 930px) {
 
