@@ -2,6 +2,7 @@
 
 ## 📊 Objetivo:
   - O objetivo deste projeto é criar o front-end de uma landing page dinâmica utilizando formulários para enviar dados do front-end para o back-end.
+  - obs: O backEnd está sendo feito, no bd xampp phpMyAdmim
 
 ### 🌍 URL do projeto:
   - [Clique para visualizar o projeto na WEB](https://uedsonoliveira.github.io/agencia-de-viagens/)
